@@ -1,2 +1,2 @@
-# Leet150
+# LeetCode150
 LeetCode150
