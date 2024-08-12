@@ -21,21 +21,7 @@ class Solution:
         return nums1
 
 """
-Most of the Solutions online fail simple tests:
-1. len(nums1) = 7
-nums1 = [1,2,3,0,0,0,0]
-m = 3
-nums2 = [2,5,6]
-n = 3
-
-and:
-2. len(nums1) = 5
-nums1 = [1,2,3,0,0]
-m = 3
-nums2 = [2,5,6]
-n = 3
-
-https://leetcode.com/problems/merge-sorted-array/solutions/228730/python-solution-w-explanation/
+Note:
 Because everything in Python is an object, when doing nums1 = sorted(nums1[:m] + nums2[:n]) two things happen:
 
     a new object is created which is the result of sorted(nums1[:m] + nums2[:n]), while the original nums1 that was passed in to the function remains untouched
@@ -53,23 +39,6 @@ n = 3
 ret = sol.merge( nums1, m, nums2, n )
 print('out: ', nums1)
 
-"""
-nums1 = [1,2,3,0,0,0,0]
-m = 3
-nums2 = [2,5,6]
-n = 3
-ret = sol.merge( nums1, m, nums2, n )
-print('out: ', nums1)
-
-
-nums1 = [1,2,3,0]
-m = 3
-nums2 = [2,5,6]
-n = 3
-ret = sol.merge( nums1, m, nums2, n )
-print('out: ', nums1)
-"""
-
 nums1 = [1]
 m = 1
 nums2 = []
@@ -84,4 +53,3 @@ nums2 = [1]
 n = 1
 ret = sol.merge( nums1, m, nums2, n )
 print('out: ', nums1)
-
