@@ -1,4 +1,17 @@
 import java.util.Arrays;
+/**
+ * # Intuition
+ * The Problem states we are given a sorted array, and we need to remove dupicate values from the array `in-place`. We need to return the number of unique elements `k`.
+ * 
+ * # Approach
+ * The approach is to iterate over the array, and compare and assign to the current position, the values not equal to the next position. IF the value is unequal we assign it to the current position held in variable `k`, and increase `k`. We return the value of `k + 1` as the result as `k` is the index value.
+ * 
+ * By iterating the whole array once, we avoid any extra space, and solve the problem with Time complexity of O(n).
+ * 
+ * # Complexity
+ * - Time complexity: O(n).
+ * - Space complexity: O(1)
+ */
 
 class Solution {
     public int removeDuplicates(int[] nums) {

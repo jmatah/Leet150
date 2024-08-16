@@ -6,3 +6,5 @@
 ## 27-remove-element.java
 ## 26-remove-duplicates-from-sorted-array.py
 ## 26-remove-duplicates-from-sorted-array.java
+## 169-majority-element.py
+## 169-majority-element.java
