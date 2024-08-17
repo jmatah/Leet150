@@ -8,3 +8,5 @@
 ## 26-remove-duplicates-from-sorted-array.java
 ## 169-majority-element.py
 ## 169-majority-element.java
+## 121-best-time-to-buy-and-sell-stock.py
+## 121-best-time-to-buy-and-sell-stock.java
