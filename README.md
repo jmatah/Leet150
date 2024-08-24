@@ -10,3 +10,5 @@
 ## 169-majority-element.java
 ## 121-best-time-to-buy-and-sell-stock.py
 ## 121-best-time-to-buy-and-sell-stock.java
+## 13-roman-to-integer.py
+## 58-lenght-of-the-last-word.py
