@@ -1,3 +1,22 @@
+"""
+# 13. Roman to Integer
+Easy Solution | O(n) | Single Pass | Python | Dictionary | Explaination
+
+## Intuition
+Given a string in roman numeral, we need to convert it to a decimal numeral. Keeping in mind that anything followed by I,X, C acts differently, coz these are subtracted with the next number. For E.g. III make become 3, but if the next number is higher E.g. IV or IX it becomes 4 and 9 respectively.
+
+## Approach
+The approach taken here is a single pass over the string from left to right, and look for conditions where numbers may need to be subtracted instead of being added.
+
+The loop will go through each alphabet i, and compare it with the next alphabet i+1, if found the loop will subtract element at n+1 with i and then ad it to total; And here increament the counter i by an additional 1 coz we have processed that character as well. Else it will just add i with the total. In the end increament i by 1
+Complexity
+
+## Time complexity: O(n)
+Coz we are taking a single pass with all elements in the string.
+
+## Space complexity: O(1)
+Since we are only using pointer variables and a data dictionary, not related to the input at hand.
+"""
 class Solution:
 	def romanToInt(self, s: str) -> int:
 		data = {
@@ -13,13 +32,9 @@ class Solution:
 		prev, curr, total, i = 0, 0, 0, 0
 		letter = [x for x in s]
 		while i < len( letter ):
-			this_total = 0
-			if i+1 < len(letter) and letter[i] in ['I', 'X', 'C']:
-				if data[letter[i]] < data[letter[i+1]]:
-					total += data[letter[i+1]] - data[letter[i]]
-					i += 1
-				else:
-					total += data[letter[i]]
+			if i+1 < len(letter) and data[letter[i]] < data[letter[i+1]]:
+				total += data[letter[i+1]] - data[letter[i]]
+				i += 1
 			else:
 				total += data[letter[i]]
 
