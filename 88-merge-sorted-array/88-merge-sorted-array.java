@@ -1,19 +1,5 @@
 import java.util.*;
 
-/**
- * # Intuition
- * We are given two sorted arrays nums1 and nums2, in non decreasing orders, and 2 numbers m and n. Where m and n are elements we need to merge from the two arrays. The length of nums1 = m+n and length of nums2 is n. We need to merge the two already sorted arrays and the result should be stored in nums1.
- * 
- * # Approach
- * We can use 2 pointers, and start merging from the i'th and j'th position of the arrays, where i = m - 1 and j = n - 1, and we use another pointer k where k = m + n - 1 to store where the larger element will be placed. We compare the elements in nums1 and nums2 and place the larger element in nums1 at the kth element. We keep doing this till j >= 0. For the remaining elements in nums1, we don't do anything as they are already sorted.
- * 
- * # Complexity
- * - Time complexity: O(m+n)
- * `We iterate through both the arrays once so time complexity is O(m+n)`
- * 
- * - Space complexity: O(1)
- * `We are not using any extra space so space complexity is O(1)`
-*/
 class Solution {
     /**
      * @param nums1

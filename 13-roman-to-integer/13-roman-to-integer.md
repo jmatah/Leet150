@@ -1,5 +1,4 @@
-"""
-# 13. Roman to Integer
+# LeetCode: 13 - Roman to Integer - Solution
 Easy Solution | O(n) | Single Pass | Python | Dictionary | Explaination
 
 ## Intuition
@@ -11,12 +10,14 @@ The approach taken here is a single pass over the string from left to right, and
 The loop will go through each alphabet i, and compare it with the next alphabet i+1, if found the loop will subtract element at n+1 with i and then ad it to total; And here increament the counter i by an additional 1 coz we have processed that character as well. Else it will just add i with the total. In the end increament i by 1
 Complexity
 
-## Time complexity: O(n)
+## Time complexity: $$O(n)$$
 Coz we are taking a single pass with all elements in the string.
 
-## Space complexity: O(1)
+## Space complexity: $$O(1)$$
 Since we are only using pointer variables and a data dictionary, not related to the input at hand.
-"""
+
+### Python 3
+```python []
 class Solution:
 	def romanToInt(self, s: str) -> int:
 		data = {
@@ -40,33 +41,4 @@ class Solution:
 
 			i += 1
 		return total
-
-sol = Solution()
-
-
-print('--==--')
-str = 'III'
-cur = sol.romanToInt( str )
-print(cur)
-print('3 --==--')
-
-str = 'IV'
-cur = sol.romanToInt( str )
-print(cur)
-print('4 --==--')
-
-str = 'CMLII'
-cur = sol.romanToInt( str )
-print(cur)
-print('952--==--')
-
-str = 'LVIII'
-cur = sol.romanToInt( str )
-print(cur)
-print('58--==--')
-
-str = "MCMXCIV"
-cur = sol.romanToInt( str )
-print(cur)
-print('1994--==--')
-
+```
