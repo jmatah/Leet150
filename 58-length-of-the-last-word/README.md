@@ -1,4 +1,4 @@
-# LeetCod: 58 - Lenght of the last word - Solution
+# LeetCod: 58 - Length of the last word - Solution
 
 ## Intuition
 Th Problem given is a string, and we need to find the ength of the last word in the string. E.g. `How are you` should return `3`, as the last word is `you`, with length `3`.

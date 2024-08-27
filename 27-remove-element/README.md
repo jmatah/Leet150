@@ -8,9 +8,9 @@ The approach is to iterate over the array and assign values not equal to `val` t
 
 By iterating the whole array once, you avoid any extra space, and solve the problem with O(n) complexity.
 
-## Time complexity: O(n)
+## Time complexity: $$O(n)$$
 
-## Space complexity: O(1)
+## Space complexity: $$O(1)$$
 
 #### Java
 ```java []
