@@ -1,16 +1,16 @@
 # 125. Valid Palindrome - Python Solution
 
 ## Intuition
-Given a string we ehave to check whether the string is a Pallendrome or not. A Pallendrome is a string which is read the same way from left to right , as well from right to left. E.g. `Madam`.
+Given a string we ehave to check whether the string is a palindrome or not. A palindrome is a string which is read the same way from left to right , as well from right to left. E.g. `Madam`.
 
-For the problem we need to remove all non-alhpa numeric characters from the string, convert them to lowercase, and then compare if the resultant string is pallendrome in nature or not.
+For the problem we need to remove all non-alhpa numeric characters from the string, convert them to lowercase, and then compare if the resultant string is palindrome in nature or not.
 
 ## Approach
 The approach I will take is a two pointer approach, one will start from the begining for the string `l`, and the other from the last character of the string `r`. 
 
 We will start a while loop till `l` is less than `r`. Coming inwards, first we skip all non-alphanumeric characters on the left, then on the right.
 
-Then we compare current pointer locations if the two characters are equal, if yes, we proceed with incrementing left `l`, and right `r`. and repeat the loop. If they are not equal, we bail, coz the string is not of pallendromic nature.
+Then we compare current pointer locations if the two characters are equal, if yes, we proceed with incrementing left `l`, and right `r`. and repeat the loop. If they are not equal, we bail, coz the string is not of palindromic nature.
 
 ## Complexity
 - Time complexity: $$O(n)$$
