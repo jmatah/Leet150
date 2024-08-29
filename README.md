@@ -10,3 +10,6 @@
 #### [58 - Lenght of the last word - Solution](0058-length-of-the-last-word/)
 #### [14 - Longest common prefix - Solution](0014-longest-common-prefix/)
 #### [28 - Find the Index of the First Occurrence in a String - Solution](0028-find-the-index-of-the-first-occurrence-in-a-string/)
+
+## Two Pointers
+#### [125. Valid Palindrome](0125-valid-palindrome/)
