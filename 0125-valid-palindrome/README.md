@@ -1,4 +1,4 @@
-# 125. Valid Palindrome
+# 125. Valid Palindrome - Python Solution
 
 ## Intuition
 Given a string we ehave to check whether the string is a Pallendrome or not. A Pallendrome is a string which is read the same way from left to right , as well from right to left. E.g. `Madam`.
