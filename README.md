@@ -13,4 +13,4 @@
 
 ## Two Pointers
 #### [125. Valid Palindrome](0125-valid-palindrome/)
-#### [329. Is Subsequence](0329-is-subsequence/)
+#### [392. Is Subsequence](0392-is-subsequence/)
