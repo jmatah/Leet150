@@ -18,3 +18,4 @@
 ## HashMap
 #### [383. Ransom Note](0383-ransom-note/)
 #### [205. Isomorphic Strings](0205-isomorphic-strings/)
+#### [290. Word Pattern](0290-word-pattern/)
