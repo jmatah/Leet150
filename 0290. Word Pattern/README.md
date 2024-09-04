@@ -1,4 +1,4 @@
-# 290. Word Pattern | 2 hashmaps | Python | O(n)  | Single pass | Explaination
+# LeetCode: 290. Word Pattern | Python
 
 ## Intuition
 The Problem given is a pattern `pattern` and a string `s`, find if `s` follows the same pattern.
