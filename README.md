@@ -20,3 +20,4 @@
 #### [205. Isomorphic Strings](0205-isomorphic-strings/)
 #### [290. Word Pattern](0290-word-pattern/)
 #### [242. Valid Anagram](0242-valid-anagram)
+#### [1. Two Sum](0001-two-sum)
