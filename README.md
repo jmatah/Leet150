@@ -21,3 +21,4 @@
 #### [290. Word Pattern](0290-word-pattern/)
 #### [242. Valid Anagram](0242-valid-anagram)
 #### [1. Two Sum](0001-two-sum)
+#### [202. Happy Number](0202-happy-number)
