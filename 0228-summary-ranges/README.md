@@ -19,7 +19,7 @@ I would approach this problem with a single loop with 2 pointers with start `sta
 
 We check whether the number at current indice and the number at the indice `end_i` have a differene of `1`. If yes we assign `end_i` to `i` and continue with the loop.
 
-If the difference of number at the current indice and number at indice at `end_i` is geater than `1`, then we append either the number at the indice `end_i`, if both pointers are the same. Else we add `start_i -> end_i`.
+If the difference of number at the current indice and number at indice at `end_i` is geater than `1`, then we check if both pointers are the same number, we append number at the indice `end_i`, else we add `start_i -> end_i`.
 
 The last if statment checks the last loop, if current indice `i` is the last element of the list, and `end_i` is less than equal to `i`. And we add elements to the hashmap_arr accordingly.
 
