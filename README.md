@@ -26,3 +26,6 @@
 
 ## Intervals
 #### [228. Summary Ranges](0228-summary-ranges)
+
+## Stack
+#### [20. Valid Parentheses](0020-valid-parentheses)
