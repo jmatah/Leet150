@@ -29,3 +29,6 @@
 
 ## Stack
 #### [20. Valid Parentheses](0020-valid-parentheses)
+
+## Linked List
+#### [141. Linked List Cycle](0141-inked-list-cycle)
