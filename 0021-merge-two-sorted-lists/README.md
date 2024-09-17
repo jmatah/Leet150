@@ -10,7 +10,9 @@ Return the head of the merged linked list.
 The advantage we have is the two linked list are already sorted, so we take advantage and implement a recursive function to merge the two.
 
 ## Approach
-We merge the two already sorte linked list, by a recursive function. For input we have 2 lists `list1` and `list2`, and we compare the current `val` at both linked list, if `list1` is less we call the same function recursively with `list1.next`, and `list2`. Else we call the same function recursively with `list1` and `list2.next`.
+We merge the two already sorted linked list, by a recursive function. For input we have 2 lists `list1` and `list2`, and we compare the current `val` at both linked list, if `list1` is less we call the same function recursively with `list1.next`, and `list2`. Else we call the same function recursively with `list1` and `list2.next`. In both cases we send back the list with the smaller value.
+
+The recursion ends with either of the linked list reach their end, then we send back the other list.
 
 Calling the function recursively, we merge the two linked list.
 
