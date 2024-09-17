@@ -20,8 +20,8 @@ Calling the function recursively, we merge the two linked list.
 - Time complexity: $$O(m+n)$$
   We are using a recursive function, and the function is being called till the elements of both linked list are merged, so $$O(m+n)$$
 
-- Space complexity: $$O(1)$$
-  We are not using any other variable the space complexity is $$O(1)$$.
+- Space complexity: $$O(m+n)$$
+  The recursion stack stores all elements, in both the elements in each recurssion. The space complexity here is $$O(m+n)$$.
 
 #### Code
 ```python3 []
